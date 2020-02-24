@@ -1,0 +1,28 @@
+{
+  "name": "base-node-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "pm2 -f start index.js -i max-1",
+    "startapp": "node startapp.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Martin Mamdouh",
+  "license": "ISC",
+  "dependencies": {
+    "config": "3.2.5",
+    "express": "4.17.1",
+    "express-request-id": "1.4.1",
+    "helmet": "3.21.2",
+    "morgan": "1.9.1",
+    "pino": "5.16.0",
+    "pino-pretty": "3.6.0",
+    "rfs": "9.0.2",
+    "rotating-file-stream": "2.0.2"
+  },
+  "devDependencies": {
+    "eslint": "6.8.0"
+  }
+}

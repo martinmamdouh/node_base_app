@@ -1,1 +1,0 @@
-// write the related db model here if exist.
